@@ -1,0 +1,16 @@
+{
+    "name": "schenke-io/pretty-php-array",
+    "description": "Write php array in a pretty way into an file",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SchenkeIo\\PrettyPhpArray\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "symfony/var-exporter": "^7.0"
+    }
+}
